@@ -1,0 +1,12 @@
+# Emacs things
+*~
+*\#*\#
+.projectile
+
+# Java things
+target/
+*.jar
+*.class
+*.log
+
+
