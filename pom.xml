@@ -8,8 +8,7 @@
   <version>1.0</version>
 
   <name>bfcalc</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://www.github.com/andrewfargo/csc-207-mp2</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -66,6 +65,14 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.4.2</version>
+	  <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>edu.grinnell.csc207.main.InteractiveCalculator</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
@@ -83,6 +90,14 @@
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.6.1</version>
+        </plugin>
+	<plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checkstyle-plugin</artifactId>
+          <version>3.4.0</version>
+          <configuration>
+            <configLocation>csc207-checks.xml</configLocation>
+          </configuration>
         </plugin>
       </plugins>
     </pluginManagement>
