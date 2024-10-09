@@ -1,12 +1,15 @@
 ---
 title: MP02 - Fun with Fractions
 author: Drew Fargo
-date: 16 September, 2024
+date: 8 October, 2024
 ---
 
 # MP02: Fun with Fractions
 
 A project for CSC-207 2024Fa.
+
+The assignment specification for this project may be found at [this webpage.](https://rebelsky.cs.grinnell.edu/Courses/CSC207/2024Fa/mps/mp02.html)
+My submission code may be found at [this repository.](https://github.com/andrewfargo/csc207-mp2-fractions)
 
 ## Overview
 
@@ -71,6 +74,8 @@ stops collecting input. If the session was not interactive, then the parser
 will request of the lexer a history of the calculations, which it will print.
 
 ## Citations
+
+Instructions, written by Samuel Rebelsky, were consulted and may be found here: (https://rebelsky.cs.grinnell.edu/Courses/CSC207/2024Fa/mps/mp02.html)
 
 While I'd known the idea of left-regular grammars, I went to Wikipedia for more
 specifics before starting programming. (https://en.wikipedia.org/wiki/Regular_grammar)
